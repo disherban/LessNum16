@@ -550,8 +550,8 @@ body {
   position: absolute;
   width: 250px;
   height: 250px;
-  top: center;
-  left: center;
+  top: auto;
+  left: auto;
   opacity: 0.2;
   border: 2px solid #ffffff;
   border-radius: 50%;
@@ -562,8 +562,8 @@ body {
   position: absolute;
   width: 380px;
   height: 380px;
-  top: center;
-  left: center;
+  top: auto;
+  left: auto;
   opacity: 0.2;
   border: 2px solid #ffffff;
   border-radius: 50%;
@@ -985,8 +985,6 @@ body {
 }
 
 .team__info {
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
   font-size: 0;
   max-width: 272px;
   position: absolute;
